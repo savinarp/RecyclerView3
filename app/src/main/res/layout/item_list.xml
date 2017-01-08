@@ -33,7 +33,7 @@
             tools:text="Judul" />
 
         <TextView
-            android:id="@+id/textViewDeksripsi"
+            android:id="@+id/textViewDeskripsi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/imageView"
@@ -41,14 +41,14 @@
             android:maxLines="1"
             android:padding="16dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            tools:text="Deksripsi" />
+            tools:text="Deskripsi" />
 
         <Button
             android:id="@+id/buttonEdit"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textViewDeksripsi"
+            android:layout_below="@+id/textViewDeskripsi"
             android:text="EDIT"
             android:textColor="?attr/colorPrimary" />
 
@@ -57,7 +57,7 @@
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textViewDeksripsi"
+            android:layout_below="@+id/textViewDeskripsi"
             android:layout_marginLeft="16dp"
             android:layout_toRightOf="@+id/buttonEdit"
             android:text="DELETE"
@@ -68,7 +68,7 @@
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:layout_below="@+id/textViewDeksripsi"
+            android:layout_below="@+id/textViewDeskripsi"
             android:layout_marginRight="16dp"
             android:layout_toLeftOf="@+id/buttonShare"
             android:tint="#757575"
@@ -80,11 +80,9 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_alignParentRight="true"
-            android:layout_below="@+id/textViewDeksripsi"
+            android:layout_below="@+id/textViewDeskripsi"
             android:layout_marginRight="16dp"
             android:tint="#757575"
             app:srcCompat="@drawable/ic_share_black_24dp" />
-
     </RelativeLayout>
-
 </android.support.v7.widget.CardView>
