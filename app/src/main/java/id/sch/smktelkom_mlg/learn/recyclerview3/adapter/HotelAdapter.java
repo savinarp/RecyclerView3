@@ -15,9 +15,12 @@ import java.util.ArrayList;
 import id.sch.smktelkom_mlg.learn.recyclerview3.R;
 import id.sch.smktelkom_mlg.learn.recyclerview3.model.Hotel;
 
+
 /**
  * Created by Mokleters on 31/10/2016.
  */
+
+
 public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> {
 
     ArrayList<Hotel> hotelList;
@@ -59,6 +62,7 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> 
 
     public interface IHotelAdapter {
         void doClick(int pos);
+
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -66,11 +70,12 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> 
         TextView tvJudul;
         TextView tvDeskripsi;
 
+
         public ViewHolder(View itemView) {
             super(itemView);
             ivFoto = (ImageView) itemView.findViewById(R.id.imageView);
             tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
-            tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeksripsi);
+            tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -78,6 +83,8 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> 
                     mIHotelAdapter.doClick(getAdapterPosition());
                 }
             });
+
+
         }
     }
 
