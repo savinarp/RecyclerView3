@@ -13,21 +13,29 @@ Sekolah : SMK Telkom Malang
 
 Screenshoot1
 
-<img src="RecyclerView3 - 1.jpeg">
+<img src="1.jpeg">
 
 Screenshoot2
 
-<img src="RecyclerView3 - 2.jpeg">
+<img src="2.jpeg">
 
 Screenshoot3
 
-<img src="RecyclerView3 - 3.jpeg">
+<img src="3.jpeg">
 
 Screenshoot4
 
-<img src="RecyclerView3 - 4.jpeg">
+<img src="4.jpeg">
 
 Screenshoot5
 
-<img src="RecyclerView3 - 5.jpeg">
+<img src="5.jpeg">
+
+Screenshoot6
+
+<img src="6.jpeg">
+
+Screenshoot7
+
+<img src="7.jpeg">
 
