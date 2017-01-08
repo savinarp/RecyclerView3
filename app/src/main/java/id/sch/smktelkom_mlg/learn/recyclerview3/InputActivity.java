@@ -1,6 +1,5 @@
 package id.sch.smktelkom_mlg.learn.recyclerview3;
 
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
@@ -145,6 +144,6 @@ public class InputActivity extends AppCompatActivity {
     }
 
     public void setErrorEmpty(EditText editText) {
-        editText.setError(((TextInputLayout) editText.getParent().getParent()).getHint() + "Belum Diisi");
+        editText.setError(((TextInputLayout) editText.getParent()).getHint() + "Belum Diisi");
     }
 }
